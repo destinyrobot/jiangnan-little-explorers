@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="小舟 角色背面">
+  <title>小舟 Xiaozhou — 背面站姿</title>
+  <ellipse cx="200" cy="472" rx="84" ry="13" fill="#26364F" opacity="0.10"/>
+
+  <!-- legs -->
+  <g fill="#F7DCC4">
+    <rect x="157" y="360" width="33" height="82" rx="16"/>
+    <rect x="210" y="360" width="33" height="82" rx="16"/>
+  </g>
+  <!-- socks + shoes -->
+  <g>
+    <rect x="157" y="416" width="33" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="210" y="416" width="33" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="150" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <rect x="202" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <path d="M150 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M202 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M170 440l10 14M186 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222 440l10 14M238 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- arms (behind torso) -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M160 246c-9 20-15 38-17 58" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M143 304c-2 12-4 24-5 34" stroke="#F7DCC4" stroke-width="22"/>
+    <path d="M240 246c9 20 15 38 17 58" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M257 304c2 12 4 24 5 34" stroke="#F7DCC4" stroke-width="22"/>
+  </g>
+  <circle cx="137" cy="342" r="13" fill="#F7DCC4"/>
+  <circle cx="263" cy="342" r="13" fill="#F7DCC4"/>
+
+  <!-- shorts -->
+  <g>
+    <path d="M150 326h100l-1 50h-48l-1-26-1 26h-49z" fill="#33455E"/>
+    <rect x="150" y="322" width="100" height="12" rx="4" fill="#26364F"/>
+  </g>
+
+  <!-- shirt back -->
+  <path d="M148 240c0-10 18-16 38-16h28c20 0 38 6 38 16l-4 96H152z" fill="#F6F1E6"/>
+  <path d="M152 336h96" stroke="#E3DBC9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- backpack -->
+  <g>
+    <path d="M168 250c0-16 14-26 32-26s32 10 32 26v62c0 12-9 20-21 20h-22c-12 0-21-8-21-20z" fill="#E9793B"/>
+    <rect x="176" y="286" width="48" height="34" rx="9" fill="#D4652B"/>
+    <path d="M172 262c-6 20-8 42-6 62M228 262c6 20 8 42 6 62" stroke="#C25520" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M166 254c8-18 24-30 34-30s26 12 34 30" stroke="#D4652B" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- neck -->
+  <rect x="186" y="198" width="28" height="36" rx="13" fill="#EFC9A9"/>
+
+  <!-- ears -->
+  <circle cx="142" cy="156" r="11" fill="#F7DCC4"/>
+  <circle cx="258" cy="156" r="11" fill="#F7DCC4"/>
+
+  <!-- head (all hair from behind) -->
+  <ellipse cx="200" cy="150" rx="62" ry="64" fill="#26364F"/>
+  <path d="M140 158c-2 42 10 74 26 92l-16 6c-20-24-28-64-24-100z" fill="#26364F"/>
+  <path d="M260 158c2 42-10 74-26 92l16 6c20-24 28-64 24-100z" fill="#26364F"/>
+  <path d="M186 78c-16 2-26 14-24 28" stroke="#26364F" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M214 76c14-8 28-2 30 10" stroke="#26364F" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <ellipse cx="172" cy="132" rx="17" ry="11" fill="#31455F" opacity="0.55" transform="rotate(-18 172 132)"/>
+</svg>

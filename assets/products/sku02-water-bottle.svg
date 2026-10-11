@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="SKU02 儿童亲子水杯">
+  <title>SKU 02 · 儿童/亲子水杯 / Water Bottle</title>
+  <style>
+    .cn{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif}
+    .en{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+  </style>
+
+  <rect width="900" height="700" fill="#F7F4ED"/>
+  <ellipse cx="462" cy="662" rx="132" ry="16" fill="#26364F" opacity="0.10"/>
+
+  <!-- carry loop -->
+  <path d="M416 104C416 58 484 58 484 104" fill="none" stroke="#E9793B" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- lid -->
+  <rect x="380" y="98" width="140" height="58" rx="16" fill="#79B473"/>
+  <rect x="380" y="140" width="140" height="16" fill="#5E9E58"/>
+  <rect x="394" y="110" width="16" height="34" rx="8" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- body -->
+  <path d="M372 166c0-8 6-14 14-14h128c8 0 14 6 14 14v416c0 34-27 62-60 62h-36c-33 0-60-28-60-62z"
+        fill="#FBF8F1"/>
+  <path d="M372 540h156v42c0 34-27 62-60 62h-36c-33 0-60-28-60-62z" fill="#F1EADB"/>
+  <rect x="390" y="182" width="15" height="356" rx="7.5" fill="#FFFFFF" opacity="0.72"/>
+
+  <!-- top print -->
+  <g fill="none" stroke="#2E7D77" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+     transform="translate(450 204) scale(0.86)">
+    <path d="M-24 -2h48M-24 -13v11M24 -13v11M-15 24c0-14 7-25 15-25s15 11 15 25"/>
+    <path d="M-22 24h44" opacity=".55"/>
+  </g>
+  <text class="cn" x="450" y="254" text-anchor="middle" font-size="19" font-weight="700"
+        letter-spacing="3" fill="#26364F">江南小小探索家</text>
+  <text class="en" x="450" y="274" text-anchor="middle" font-size="8.5" font-weight="700"
+        letter-spacing="3" fill="#2E7D77">LITTLE EXPLORERS</text>
+
+  <!-- grip band -->
+  <rect x="372" y="304" width="156" height="104" rx="4" fill="#EFE8D7"/>
+  <rect x="372" y="304" width="156" height="3" fill="#E2DAC4"/>
+  <rect x="372" y="405" width="156" height="3" fill="#E2DAC4"/>
+  <g transform="translate(405 332)">
+    <path d="M0 0L11-5A13 9.5 0 1 0 11 5Z" fill="#79B473"/>
+  </g>
+  <g transform="translate(450 334)" fill="#2E7D77">
+    <path d="M-6 0L-17-8V8Z"/>
+    <ellipse cx="2" cy="0" rx="12" ry="7.5"/>
+    <circle cx="7" cy="-2.5" r="1.6" fill="#26364F"/>
+  </g>
+  <g transform="translate(497 332)">
+    <path d="M0 0L11-5A13 9.5 0 1 0 11 5Z" fill="#79B473"/>
+  </g>
+  <g transform="translate(405 380)" fill="#2E7D77">
+    <path d="M-6 0L-17-8V8Z"/>
+    <ellipse cx="2" cy="0" rx="12" ry="7.5"/>
+    <circle cx="7" cy="-2.5" r="1.6" fill="#26364F"/>
+  </g>
+  <g transform="translate(450 378)">
+    <path d="M0 0L11-5A13 9.5 0 1 0 11 5Z" fill="#79B473"/>
+  </g>
+  <g transform="translate(497 380)" fill="#2E7D77">
+    <path d="M-6 0L-17-8V8Z"/>
+    <ellipse cx="2" cy="0" rx="12" ry="7.5"/>
+    <circle cx="7" cy="-2.5" r="1.6" fill="#26364F"/>
+  </g>
+
+  <!-- character print -->
+  <g transform="translate(363 385) scale(0.4)">
+<rect width="400" height="520" fill="none"/>
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="472" rx="84" ry="13" fill="#26364F" opacity="0.10"/>
+
+  <!-- backpack (behind) -->
+  <g>
+    <rect x="130" y="236" width="140" height="108" rx="26" fill="#E9793B"/>
+    <rect x="130" y="236" width="140" height="32" rx="16" fill="#D4652B"/>
+  </g>
+
+  <!-- legs -->
+  <g fill="#F7DCC4">
+    <rect x="157" y="360" width="33" height="82" rx="16"/>
+    <rect x="210" y="360" width="33" height="82" rx="16"/>
+  </g>
+  <!-- socks + shoes -->
+  <g>
+    <rect x="160" y="416" width="28" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="212" y="416" width="28" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="150" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <rect x="202" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <path d="M150 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M202 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M170 440l10 14M186 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222 440l10 14M238 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- shorts -->
+  <g>
+    <path d="M150 326h100l-1 50h-48l-1-26-1 26h-49z" fill="#33455E"/>
+    <rect x="150" y="322" width="100" height="12" rx="4" fill="#26364F"/>
+  </g>
+
+  <!-- arms (behind torso) -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M160 246c-9 20-15 38-17 58" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M143 304c-2 12-4 24-5 34" stroke="#F7DCC4" stroke-width="22"/>
+    <path d="M240 246c16 0 28-8 34-22" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M274 224c-4-10-10-20-14-26" stroke="#F7DCC4" stroke-width="22"/>
+  </g>
+  <circle cx="263" cy="342" r="13" fill="#F7DCC4"/>
+
+  <!-- torso -->
+  <path d="M148 240c0-10 18-16 38-16h28c20 0 38 6 38 16l-4 96H152z" fill="#F6F1E6"/>
+  <!-- sleeve seams -->
+  <path d="M152 236c6 10 8 22 8 34M248 236c-6 10-8 22-8 34" stroke="#E3DBC9" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- collar -->
+  <path d="M184 226q16 20 32 0" stroke="#2E7D77" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- hem -->
+  <path d="M152 336h96" stroke="#E3DBC9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- backpack straps -->
+  <g stroke="#D4652B" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M176 228c-6 32-4 66 2 100"/>
+    <path d="M224 228c6 32 4 66-2 100"/>
+  </g>
+  <rect x="188" y="278" width="24" height="14" rx="4" fill="#26364F"/>
+
+  <g>
+    <path d="M274 174l-14 22" stroke="#E9793B" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="284" cy="164" r="26" fill="#DCEDEA" opacity=".8"/>
+    <circle cx="284" cy="164" r="26" fill="none" stroke="#2E7D77" stroke-width="7"/>
+    <path d="M274 172q10-13 20 0" stroke="#2E7D77" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M270 184h28" stroke="#2E7D77" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    <path d="M274 192h20" stroke="#2E7D77" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+  </g>
+  <!-- neck -->
+  <rect x="186" y="198" width="28" height="36" rx="13" fill="#EFC9A9"/>
+
+  <!-- ears -->
+  <circle cx="142" cy="156" r="11" fill="#F7DCC4"/>
+  <circle cx="258" cy="156" r="11" fill="#F7DCC4"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="148" rx="60" ry="64" fill="#F7DCC4"/>
+
+  <!-- hair -->
+  <path d="M141 146c-6-50 24-78 59-78s65 28 59 78c-9-24-27-38-45-42-10 14-28 20-42 12-12 4-24 14-31 30z" fill="#26364F"/>
+  <path d="M206 72c8-14 26-16 34-8-10-2-22 0-28 10z" fill="#26364F"/>
+
+  <!-- brows -->
+  <path d="M168 136q12-9 24-3" stroke="#1B2839" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M208 133q12-6 24 3" stroke="#1B2839" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="181" cy="158" rx="8" ry="10.5" fill="#26364F"/>
+  <ellipse cx="219" cy="158" rx="8" ry="10.5" fill="#26364F"/>
+  <circle cx="178" cy="154" r="3" fill="#FFFFFF"/>
+  <circle cx="216" cy="154" r="3" fill="#FFFFFF"/>
+  <!-- nose -->
+  <path d="M197 174q7 4 1 8" stroke="#E4B99A" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- mouth -->
+  <path d="M188 190q12 12 24 0" stroke="#B0574A" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- blush -->
+  <ellipse cx="162" cy="178" rx="11" ry="6" fill="#F0A79B" opacity="0.55"/>
+  <ellipse cx="238" cy="178" rx="11" ry="6" fill="#F0A79B" opacity="0.55"/>
+  <circle cx="137" cy="342" r="13" fill="#F7DCC4"/>
+  <circle cx="260" cy="198" r="13" fill="#F7DCC4"/>
+</g>
+</svg>

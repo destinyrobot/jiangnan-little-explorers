@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>江南小小探索家 · Little Explorers · Jiangnan｜研学文创周边系列</title>
+<meta name="description" content="个人概念项目：面向 7–14 岁儿童与亲子家庭的江南城市研学文创周边系列设计（IP 视觉系统 + 6 SKU）。">
+<link rel="icon" type="image/svg+xml" href="assets/identity/logo-mark.svg">
+<style>
+:root{
+  --ink:#26364F; --canal:#2E7D77; --lotus:#79B473; --orange:#E9793B;
+  --rice:#F4ECDD; --paper:#F7F4ED; --white:#FFFFFF;
+  --mist:#DCEDEA; --brick:#C8CFCB;
+  --line:#E4DBC6; --ink-60:rgba(38,54,79,.60); --ink-40:rgba(38,54,79,.40);
+  --cn:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --en:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--rice);color:var(--ink);
+  font-family:var(--cn);font-size:16px;line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%}
+a{color:inherit;text-decoration:none}
+
+/* ---------- nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;display:flex;align-items:center;
+  gap:28px;padding:0 28px;height:64px;
+  background:rgba(244,236,221,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.nav img{height:34px;width:auto}
+.nav .links{display:flex;gap:22px;margin-left:auto;flex-wrap:wrap}
+.nav .links a{
+  font-family:var(--en);font-size:11.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-60);transition:color .2s;
+}
+.nav .links a:hover{color:var(--orange)}
+.nav .tag{
+  font-family:var(--en);font-size:10px;letter-spacing:.22em;color:var(--canal);
+  border:1px solid var(--canal);border-radius:999px;padding:4px 10px;white-space:nowrap;
+}
+
+/* ---------- layout ---------- */
+section{padding:92px 0;scroll-margin-top:64px}
+section.alt{background:var(--paper)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.sec-head{display:flex;align-items:flex-end;gap:22px;margin-bottom:14px}
+.sec-head .num{
+  font-family:var(--serif);font-style:italic;font-size:64px;line-height:.9;
+  color:var(--canal);opacity:.32;
+}
+.sec-head h2{margin:0;font-size:38px;line-height:1.15;letter-spacing:.04em}
+.sec-head .en{
+  font-family:var(--serif);font-style:italic;font-size:19px;color:var(--canal);
+  margin:0 0 8px;
+}
+.sec-intro{max-width:760px;color:var(--ink-60);margin:0 0 40px}
+.label{
+  font-family:var(--en);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-40);margin:0 0 14px;
+}
+.grid{display:grid;gap:22px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g-7-5{grid-template-columns:1.4fr 1fr}
+.frame{
+  background:var(--white);border:1px solid var(--line);border-radius:8px;
+  padding:18px;box-shadow:0 14px 34px rgba(38,54,79,.06);
+}
+.frame img{display:block;width:100%;height:auto}
+.frame.tight{padding:0;overflow:hidden}
+.frame.tight img{border-radius:7px}
+.cap{
+  margin:12px 0 0;font-size:12.5px;letter-spacing:.06em;color:var(--ink-40);
+  text-align:center;
+}
+.cap b{color:var(--ink-60);font-weight:600}
+
+/* ---------- cover ---------- */
+.cover{position:relative;height:calc(100vh - 64px);min-height:620px;padding:0;overflow:hidden;background:var(--paper)}
+.cover .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .scrim{
+  position:absolute;inset:0;
+  background:linear-gradient(102deg,rgba(247,244,237,.94) 0%,rgba(247,244,237,.72) 30%,rgba(247,244,237,.18) 52%,rgba(247,244,237,0) 66%);
+}
+.cover .copy{position:absolute;left:6%;top:11%;max-width:640px}
+.eyebrow{
+  font-family:var(--en);font-size:11.5px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--orange);margin:0 0 22px;
+}
+.cover h1{margin:0;font-size:clamp(46px,6.2vw,84px);line-height:1.08;letter-spacing:.06em}
+.cover .accent{
+  font-family:var(--serif);font-style:italic;font-size:clamp(20px,2.2vw,30px);
+  color:var(--canal);margin:14px 0 26px;
+}
+.cover .lead{font-size:17px;color:var(--ink-60);max-width:520px;margin:0 0 30px}
+.cover .facts{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px;max-width:560px}
+.cover .facts div{padding-right:34px;margin-right:34px;border-right:1px solid var(--line)}
+.cover .facts div:last-child{border-right:0;margin-right:0;padding-right:0}
+.cover .facts b{display:block;font-size:26px;line-height:1.2;letter-spacing:.02em}
+.cover .facts span{font-family:var(--en);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-40)}
+.scroll-hint{
+  position:absolute;left:6%;bottom:34px;display:flex;align-items:center;gap:12px;
+  font-family:var(--en);font-size:10.5px;letter-spacing:.3em;color:var(--ink-40);
+}
+.scroll-hint::before{content:"";width:54px;height:1px;background:var(--ink-40)}
+
+/* ---------- concept ---------- */
+.quote{
+  border-left:5px solid var(--canal);background:var(--white);
+  padding:26px 30px;border-radius:0 8px 8px 0;margin:0 0 34px;
+}
+.quote p{margin:0;font-size:21px;line-height:1.6;letter-spacing:.02em}
+.quote span{display:block;margin-top:8px;font-family:var(--serif);font-style:italic;color:var(--canal);font-size:15px}
+.dl{margin:0}
+.dl div{display:flex;gap:16px;padding:13px 0;border-bottom:1px dashed var(--line)}
+.dl div:last-child{border-bottom:0}
+.dl dt{flex:0 0 96px;font-size:13px;letter-spacing:.1em;color:var(--canal);margin:0}
+.dl dd{margin:0;font-size:14.5px;color:var(--ink-60)}
+.chips{display:flex;flex-direction:column;gap:12px}
+.chips .row{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap}
+.chips .k{
+  font-family:var(--en);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--orange);flex:0 0 64px;padding-top:8px;
+}
+.chips .c{display:flex;flex-wrap:wrap;gap:8px}
+.chips .c span{
+  background:var(--white);border:1px solid var(--line);border-radius:999px;
+  padding:6px 14px;font-size:13.5px;color:var(--ink-60);
+}
+.dodont{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.dodont .box{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:24px 26px}
+.dodont h4{margin:0 0 14px;font-size:14px;letter-spacing:.14em}
+.dodont .do h4{color:var(--canal)}
+.dodont .dont h4{color:var(--orange)}
+.dodont ul{margin:0;padding-left:18px}
+.dodont li{font-size:14px;color:var(--ink-60);margin:7px 0}
+
+/* ---------- characters ---------- */
+.pose{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:10px;text-align:center}
+.pose img{width:100%;height:auto;display:block}
+.pose p{margin:8px 0 4px;font-size:12.5px;letter-spacing:.06em;color:var(--ink-40)}
+.pose p b{display:block;color:var(--ink);font-size:13.5px;font-weight:600;letter-spacing:.04em}
+.chr-note{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:34px;
+}
+.chr-note .n{background:var(--mist);border-radius:8px;padding:18px 20px}
+.chr-note .n h5{margin:0 0 6px;font-size:14.5px;letter-spacing:.08em}
+.chr-note .n p{margin:0;font-size:13px;color:var(--ink-60);line-height:1.65}
+
+/* ---------- identity ---------- */
+.logo-pair{display:flex;gap:22px;align-items:stretch;flex-wrap:wrap}
+.logo-pair .frame{display:flex;align-items:center;justify-content:center;padding:26px}
+.logo-pair .l1{flex:1 1 320px}
+.logo-pair .l2{flex:0 0 220px}
+.logo-pair img{width:100%;height:auto;max-height:150px;object-fit:contain}
+.pat-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--white)}
+.pat-tiles img{width:100%;display:block}
+
+/* ---------- products ---------- */
+.sku{background:var(--white);border:1px solid var(--line);border-radius:8px;overflow:hidden;box-shadow:0 14px 34px rgba(38,54,79,.06)}
+.sku .ph{background:var(--paper);border-bottom:1px solid var(--line)}
+.sku .ph img{display:block;width:100%;height:auto}
+.sku .tx{padding:18px 20px 22px}
+.sku .no{
+  display:inline-block;font-family:var(--en);font-size:11px;letter-spacing:.2em;
+  color:var(--white);background:var(--canal);border-radius:999px;padding:3px 11px;margin-bottom:10px;
+}
+.sku h3{margin:0 0 8px;font-size:17.5px;letter-spacing:.05em}
+.sku .en{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--canal);margin:-4px 0 12px}
+.sku p{margin:0;font-size:13.5px;color:var(--ink-60);line-height:1.65}
+.sku .mix{margin-top:12px;font-family:var(--en);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-40)}
+.sku .mix b{color:var(--orange);font-weight:600}
+
+/* ---------- series ---------- */
+.principles{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:34px}
+.principles .p{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+.principles .p b{display:block;font-family:var(--serif);font-style:italic;font-size:24px;color:var(--canal);opacity:.7;margin-bottom:6px}
+.principles .p h5{margin:0 0 6px;font-size:14.5px;letter-spacing:.06em}
+.principles .p p{margin:0;font-size:13px;color:var(--ink-60)}
+
+/* ---------- closing ---------- */
+.closing .stmt{
+  font-size:clamp(22px,2.6vw,32px);line-height:1.65;letter-spacing:.03em;
+  max-width:900px;margin:0 0 44px;
+}
+.closing .stmt em{font-style:normal;color:var(--canal)}
+.deliver{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:44px}
+.deliver .d{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+.deliver h5{margin:0 0 8px;font-size:14px;letter-spacing:.1em;color:var(--canal)}
+.deliver ul{margin:0;padding-left:16px}
+.deliver li{font-size:13px;color:var(--ink-60);margin:5px 0}
+.note{
+  background:var(--mist);border-radius:8px;padding:22px 26px;font-size:13.5px;
+  color:var(--ink-60);line-height:1.8;
+}
+.note b{color:var(--ink)}
+
+footer{background:var(--ink);color:#C9D3E0;padding:44px 0 40px}
+footer .wrap{display:flex;gap:26px;align-items:center;flex-wrap:wrap}
+footer img{height:46px;background:var(--rice);border-radius:6px;padding:6px 10px}
+footer .ft{font-size:12.5px;line-height:1.9;letter-spacing:.04em}
+footer .ft b{color:var(--white);letter-spacing:.1em}
+footer a.top{
+  margin-left:auto;font-family:var(--en);font-size:11px;letter-spacing:.2em;
+  color:#C9D3E0;border:1px solid rgba(255,255,255,.3);border-radius:999px;
+  padding:9px 18px;transition:.2s;
+}
+footer a.top:hover{border-color:var(--orange);color:var(--orange)}
+
+@media (max-width:960px){
+  .g3,.g4,.chr-note,.principles,.deliver{grid-template-columns:repeat(2,1fr)}
+  .g-7-5,.dodont,.g2{grid-template-columns:1fr}
+  .sec-head .num{font-size:46px}
+  .sec-head h2{font-size:30px}
+  .nav .links{display:none}
+  .cover .copy{left:24px;right:24px}
+  section{padding:64px 0}
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <a href="#cover" aria-label="返回封面"><img src="assets/identity/logo-lockup.svg" alt="江南小小探索家 Logo"></a>
+  <span class="tag">Personal Concept Project</span>
+  <nav class="links">
+    <a href="#concept">01 概念</a>
+    <a href="#character">02 角色</a>
+    <a href="#identity">03 识别</a>
+    <a href="#product">04 产品</a>
+    <a href="#series">05 系列</a>
+    <a href="#apply">06 应用</a>
+    <a href="#closing">07 结语</a>
+  </nav>
+</header>
+
+<!-- ============ 00 COVER ============ -->
+<section class="cover" id="cover">
+  <img class="bg" src="assets/final/hero.svg" alt="主视觉：两个小探索家走向江南水乡的古桥">
+  <div class="scrim"></div>
+  <div class="copy">
+    <p class="eyebrow">Personal Concept Project · 研学文创周边系列</p>
+    <h1>江南小小<br>探索家</h1>
+    <p class="accent">Little Explorers · Jiangnan</p>
+    <p class="lead">面向 7–14 岁儿童与亲子家庭的江南城市研学主题文创周边系列 ——
+      从 IP 视觉系统到可量产逻辑清晰的 6 个 SKU。</p>
+    <div class="facts">
+      <div><b>6</b><span>SKU</span></div>
+      <div><b>2</b><span>IP Characters</span></div>
+      <div><b>5</b><span>Color System</span></div>
+      <div><b>SVG</b><span>Code Generated</span></div>
+    </div>
+  </div>
+  <div class="scroll-hint">SCROLL</div>
+</section>
+
+<!-- ============ 01 DESIGN CONCEPT ============ -->
+<section id="concept">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">01</span>
+      <div><h2>设计概念</h2></div>
+      <p class="en">Design Concept</p>
+    </div>
+    <p class="sec-intro">设计目标不是"好看的插画"，而是<b>一套能从 IP 走到 SKU 的完整系列设计</b>：
+      叙事上以「探索 + 自然观察 + 江南水乡文化」为线索，落地为 6 件可量产逻辑清晰的周边。</p>
+
+    <div class="quote">
+      <p>Modern Flat Illustration × 轻手绘质感 × 江南水乡色谱</p>
+      <span>现代扁平插画 + 纸质颗粒 + 桥青 / 荷绿 / 柿橘的江南配色</span>
+    </div>
+
+    <div class="grid g-7-5">
+      <div class="frame">
+        <p class="label">Target Users · 目标用户</p>
+        <dl class="dl">
+          <div><dt>直接使用者</dt><dd>7–14 岁儿童（研学营 / 亲子旅行）</dd></div>
+          <div><dt>购买决策者</dt><dd>30–45 岁父母、研学机构带队老师</dd></div>
+          <div><dt>使用场景</dt><dd>研学出行、课堂记录、居家收纳、日常携带</dd></div>
+          <div><dt>审美期待</dt><dd>家长要"有品质不幼稚"，孩子要"可爱有角色"</dd></div>
+        </dl>
+      </div>
+      <div class="frame">
+        <p class="label">Keywords · 设计关键词</p>
+        <div class="chips">
+          <div class="row"><span class="k">江南</span><div class="c">
+            <span>水乡</span><span>园林</span><span>古桥</span><span>河道</span><span>乌篷船</span></div></div>
+          <div class="row"><span class="k">研学</span><div class="c">
+            <span>探索</span><span>放大镜</span><span>地图</span><span>记录本</span></div></div>
+          <div class="row"><span class="k">儿童</span><div class="c">
+            <span>亲子</span><span>自然</span><span>文化</span><span>旅行</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dodont">
+      <div class="box do">
+        <h4>DO · 风格约束</h4>
+        <ul>
+          <li>清新、年轻、有教育感</li>
+          <li>有文创产品感与克制的高级感</li>
+          <li>儿童友好但不幼儿园</li>
+        </ul>
+      </div>
+      <div class="box dont">
+        <h4>DON'T · 边界</h4>
+        <ul>
+          <li>不像学校宣传册、不像廉价旅游纪念品</li>
+          <li>不模仿任何现有 IP，角色必须原创</li>
+          <li>不堆砌元素（每张画面 ≤ 3 个主元素）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 CHARACTER ============ -->
+<section id="character" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">02</span>
+      <div><h2>角色设计</h2></div>
+      <p class="en">Character Design</p>
+    </div>
+    <p class="sec-intro">两个原创探索者：<b>小舟 Xiaozhou</b> 负责"探索"，<b>小荷 Xiaohe</b> 负责"观察"。
+      统一 1:2.9 身头比、同一肤色 <b style="color:#26364F">#F7DCC4</b>、同一眼型与腮红、同一无描边扁平上色方式。</p>
+
+    <div class="frame" style="margin-bottom:22px">
+      <img src="assets/characters/character-sheet.svg" alt="角色三视图与比例规范表">
+      <p class="cap"><b>角色规范表</b> · Character Sheet｜比例 / 肤色 / 眼型 / 轮廓语言</p>
+    </div>
+
+    <div class="grid g2" style="margin-bottom:22px">
+      <div class="frame"><img src="assets/characters/duo.svg" alt="小舟与小荷组合">
+        <p class="cap"><b>双人组合</b> · Duo｜可单独使用、可组合使用</p></div>
+      <div class="frame"><img src="assets/characters/expressions.svg" alt="角色表情组图">
+        <p class="cap"><b>表情组</b> · Expressions｜好奇 / 发现 / 成就 / 分享</p></div>
+    </div>
+
+    <p class="label">Poses · 动作与道具</p>
+    <div class="grid g4">
+      <div class="pose"><img src="assets/characters/xiaozhou-front.svg" alt="小舟正面">
+        <p><b>小舟 Xiaozhou</b>正面 · Front</p></div>
+      <div class="pose"><img src="assets/characters/xiaozhou-magnifier.svg" alt="小舟拿放大镜">
+        <p><b>小舟</b>放大镜 · Magnifier</p></div>
+      <div class="pose"><img src="assets/characters/xiaozhou-map.svg" alt="小舟看地图">
+        <p><b>小舟</b>地图 · Map</p></div>
+      <div class="pose"><img src="assets/characters/xiaozhou-back.svg" alt="小舟背面">
+        <p><b>小舟</b>背面 · Back</p></div>
+    </div>
+    <div class="grid g4" style="margin-top:22px">
+      <div class="pose"><img src="assets/characters/xiaohe-front.svg" alt="小荷正面">
+        <p><b>小荷 Xiaohe</b>正面 · Front</p></div>
+      <div class="pose"><img src="assets/characters/xiaohe-notebook.svg" alt="小荷记录本">
+        <p><b>小荷</b>记录本 · Notebook</p></div>
+      <div class="pose"><img src="assets/characters/xiaohe-lotus.svg" alt="小荷荷叶道具">
+        <p><b>小荷</b>荷叶 · Lotus</p></div>
+      <div class="pose"><img src="assets/characters/xiaohe-back.svg" alt="小荷背面">
+        <p><b>小荷</b>背面 · Back</p></div>
+    </div>
+
+    <div class="chr-note">
+      <div class="n"><h5>小舟 · 探索担当</h5><p>柿橘研学背包 + 地图 / 放大镜道具，河青拼袖上衣与墨蓝短裤，表情自信、眉毛上扬。</p></div>
+      <div class="n"><h5>小荷 · 观察担当</h5><p>荷绿连衣裙 + 记录本 / 荷叶道具，发间荷叶形发夹，好奇微微侧头，活泼但不幼稚。</p></div>
+      <div class="n"><h5>统一比例</h5><p>头身比约 1 : 2.9，同一头型轮廓、同一手脚圆角语言，跨动作文件可直接互换。</p></div>
+      <div class="n"><h5>上色规范</h5><p>无粗黑描边，色块分层；暗部用同色系加深，不使用纯黑阴影。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 IDENTITY ============ -->
+<section id="identity">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">03</span>
+      <div><h2>视觉识别</h2></div>
+      <p class="en">Visual Identity</p>
+    </div>
+    <p class="sec-intro">Logo、色彩、字体、纹样与图标共用同一套几何语言：圆角几何 + 无粗黑描边，
+      文字全部由 HTML / SVG 排版，不依赖图像模型生成中文。</p>
+
+    <div class="logo-pair" style="margin-bottom:22px">
+      <div class="frame l1"><img src="assets/identity/logo-lockup.svg" alt="横版 Logo 锁定">
+      </div>
+      <div class="frame l2"><img src="assets/identity/logo-mark.svg" alt="Logo 图标" style="max-height:110px">
+      </div>
+    </div>
+    <p class="cap" style="margin:-8px 0 34px"><b>Logo</b> · 放大镜 + 古桥拱 + 水波，横版锁定与图标两种规格</p>
+
+    <div class="frame" style="margin-bottom:22px">
+      <img src="assets/identity/color-palette.svg" alt="5 色主色板与比例">
+      <p class="cap"><b>色彩系统</b> · 5 主色：墨蓝 / 河青 / 荷绿 / 柿橘 / 宣米｜底色 60% · 河青+荷绿 25% · 墨蓝 10% · 柿橘 5%</p>
+    </div>
+
+    <div class="frame" style="margin-bottom:22px">
+      <img src="assets/identity/typography.svg" alt="字体规范">
+      <p class="cap"><b>字体规范</b> · Typography｜Display / Accent / Label / Body 四级</p>
+    </div>
+
+    <div class="grid g2">
+      <div>
+        <div class="pat-tiles">
+          <img src="assets/identity/pattern.svg" alt="纹样 1">
+          <img src="assets/identity/pattern.svg" alt="纹样 2">
+          <img src="assets/identity/pattern.svg" alt="纹样 3">
+          <img src="assets/identity/pattern.svg" alt="纹样 4">
+        </div>
+        <p class="cap"><b>辅助纹样</b> · Pattern｜古桥 / 水波 / 荷叶 / 乌篷船</p>
+      </div>
+      <div class="frame"><img src="assets/identity/icons.svg" alt="图标系统">
+        <p class="cap"><b>图标系统</b> · Icons｜放大镜 / 地图 / 记录本 / 古桥 / 荷叶…</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 PRODUCT ============ -->
+<section id="product" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">04</span>
+      <div><h2>产品设计</h2></div>
+      <p class="en">Product Design · 6 SKU</p>
+    </div>
+    <p class="sec-intro">6 件 SKU 覆盖出行、饮水、记录、装饰、穿戴四类研学场景；
+      每件均设定主色占比与构图重心，保证货架上的系列感。</p>
+
+    <div class="grid g3">
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku01-canvas-bag.svg" alt="研学帆布袋设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 01</span>
+          <h3>研学帆布袋</h3>
+          <p class="en">Canvas Bag</p>
+          <p>正面大幅路线图构图 + 角色压角，底部品牌条压住画面重心。</p>
+          <p class="mix">主色 · <b>河青 Canal</b></p>
+        </div>
+      </article>
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku02-water-bottle.svg" alt="儿童亲子水杯设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 02</span>
+          <h3>儿童 / 亲子水杯</h3>
+          <p class="en">Water Bottle</p>
+          <p>环绕式腰带图案，杯身竖排留白，双色杯盖与提环。</p>
+          <p class="mix">主色 · <b>荷绿 Lotus</b></p>
+        </div>
+      </article>
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku03-notebook.svg" alt="研学笔记本设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 03</span>
+          <h3>研学笔记本</h3>
+          <p class="en">Notebook</p>
+          <p>封面几何开窗 + 书脊色带，烫印感 Logo，内页留白供记录。</p>
+          <p class="mix">主色 · <b>河青 Canal</b></p>
+        </div>
+      </article>
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku04-sticker-set.svg" alt="贴纸套装设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 04</span>
+          <h3>贴纸套装</h3>
+          <p class="en">Sticker Set</p>
+          <p>12 枚异形贴纸网格，角色 / 图标 / 徽标混排，可整版或散用。</p>
+          <p class="mix">主色 · <b>多色均衡 Balanced</b></p>
+        </div>
+      </article>
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku05-badge-magnet.svg" alt="徽章与冰箱贴设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 05</span>
+          <h3>徽章 / 冰箱贴</h3>
+          <p class="en">Badge &amp; Magnet</p>
+          <p>3 枚圆形金属边徽章，独立底卡承载，一套三枚成组。</p>
+          <p class="mix">主色 · <b>柿橘 Persimmon</b></p>
+        </div>
+      </article>
+      <article class="sku">
+        <div class="ph"><img src="assets/products/sku06-tshirt-cap.svg" alt="研学 T 恤与帽子设计图"></div>
+        <div class="tx">
+          <span class="no">SKU 06</span>
+          <h3>研学 T-shirt / Cap</h3>
+          <p class="en">T-shirt &amp; Cap</p>
+          <p>衣身大面积留白 + 左胸小标 + 背部大图；渔夫帽同色系呼应。</p>
+          <p class="mix">主色 · <b>墨蓝 Ink</b></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 SERIES ============ -->
+<section id="series">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">05</span>
+      <div><h2>系列总览</h2></div>
+      <p class="en">Series Overview</p>
+    </div>
+    <p class="sec-intro">把 6 件 SKU 放回同一张货架：统一投影角度、统一留白率、统一构图重心，
+      是"系列"区别于"六张图"的地方。</p>
+
+    <div class="frame">
+      <img src="assets/mockups/product-grid.svg" alt="6 个 SKU 的产品矩阵总览">
+      <p class="cap"><b>产品矩阵</b> · Product Grid｜3 × 2 网格，同一视角、同一投影（左上光 45°）</p>
+    </div>
+
+    <div class="principles">
+      <div class="p"><b>01</b><h5>同一角色比例</h5><p>全部 SKU 上的角色来自同一套 1:2.9 比例文件，不逐图重画。</p></div>
+      <div class="p"><b>02</b><h5>同一配色比例</h5><p>底色 60% / 河青+荷绿 25% / 墨蓝 10% / 柿橘 5%，逐件可检。</p></div>
+      <div class="p"><b>03</b><h5>同一构图重心</h5><p>左上起手的构图方向，主标与角色压角位置统一。</p></div>
+      <div class="p"><b>04</b><h5>同一留白率</h5><p>画面留白 ≥ 35%，产品图统一左上光 45° 投影角度。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 APPLICATION ============ -->
+<section id="apply" class="alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">06</span>
+      <div><h2>场景应用</h2></div>
+      <p class="en">Application Mockups</p>
+    </div>
+    <p class="sec-intro">主视觉、场景图与礼盒包装：验证 IP 在真实尺度与真实场景下的表现力。</p>
+
+    <div class="frame" style="margin-bottom:22px">
+      <img src="assets/final/hero.svg" alt="主视觉：古桥、乌篷船与两个背影角色">
+      <p class="cap"><b>主视觉</b> · Key Visual｜16:9，左上留出标题区，角色以背影走向拱桥</p>
+    </div>
+
+    <div class="frame" style="margin-bottom:22px">
+      <img src="assets/mockups/lifestyle-study.svg" alt="水乡研学场景图">
+      <p class="cap"><b>场景应用</b> · Lifestyle｜河岸步道上的研学观察时刻</p>
+    </div>
+
+    <div class="frame">
+      <img src="assets/mockups/gift-box.svg" alt="研学礼盒包装效果图">
+      <p class="cap"><b>礼盒包装</b> · Gift Box｜概念包装 + 搭配单品（笔记本 / 徽章）</p>
+    </div>
+
+    <div class="note" style="margin-top:26px">
+      <b>关于照片级效果图：</b>本仓库所有视觉素材均由代码（SVG）绘制生成，保证文字与角色零畸变。
+      需要实拍质感的场景图（帆布袋上身、礼盒摄影、研学现场），可在 <b>IMAGE_PROMPTS.md</b>
+      中找到与本视觉系统完全一致的可复用 prompt，供后续人工或图像模型生成。
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 CLOSING ============ -->
+<section id="closing" class="closing">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">07</span>
+      <div><h2>结语</h2></div>
+      <p class="en">Closing</p>
+    </div>
+
+    <p class="stmt">一套能从 <em>IP</em> 走到 <em>SKU</em> 的完整系列设计 ——
+      角色、识别、产品、场景共用同一套比例、同一套色谱、同一条地平线。</p>
+
+    <div class="deliver">
+      <div class="d"><h5>视觉资产</h5><ul>
+        <li>角色三视图 / 动作 / 表情（11 件 SVG）</li>
+        <li>Logo / 色板 / 字体 / 纹样 / 图标</li>
+        <li>主视觉 · 场景图 · 礼盒 · 产品矩阵</li></ul></div>
+      <div class="d"><h5>产品资产</h5><ul>
+        <li>6 个 SKU 设计图（900 × 700 统一画布）</li>
+        <li>统一投影角度与留白率</li>
+        <li>系列化配色比例说明</li></ul></div>
+      <div class="d"><h5>项目文档</h5><ul>
+        <li>docs/design-brief.md 设计简报</li>
+        <li>IMAGE_PROMPTS.md 图片生成 prompt</li>
+        <li>README.md 使用与延展说明</li></ul></div>
+    </div>
+
+    <div class="note">
+      <b>内容性质声明：</b>本项目为<b>个人概念项目（Personal Concept Project）</b>，
+      无真实客户、无真实订单、未量产，仅作为应聘「研学周边设计师」岗位的能力参考作品。
+      仓库内全部视觉素材由代码（SVG）绘制生成，非图像模型直出；角色与 IP 均为原创，不模仿任何现有 IP。
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/identity/logo-mark.svg" alt="Logo">
+    <div class="ft">
+      <b>江南小小探索家 · LITTLE EXPLORERS · JIANGNAN</b><br>
+      研学文创周边系列 · Personal Concept Project｜6 SKU · 2 Characters · 5 Colors<br>
+      All artwork drawn as SVG code · For portfolio use only
+    </div>
+    <a class="top" href="#cover">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+</body>
+</html>

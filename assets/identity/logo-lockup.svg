@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" width="520" height="132" role="img" aria-label="江南小小探索家 Little Explorers Jiangnan 标志组合">
+  <title>江南小小探索家 · 标志组合（横版）</title>
+  <g transform="translate(6 6) scale(1)">
+    <circle cx="60" cy="60" r="42" fill="#FFFFFF" stroke="#26364F" stroke-width="8"/>
+    <path d="M36 63h48" stroke="#2E7D77" stroke-width="8" stroke-linecap="round"/>
+    <path d="M44 63c0 14 8 22 16 22s16-8 16-22" stroke="#2E7D77" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M40 93h40" stroke="#2E7D77" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+    <path d="M47 101h26" stroke="#2E7D77" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+    <path d="M90 90l16 16" stroke="#E9793B" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="60" cy="45" r="5" fill="#E9793B"/>
+  </g>
+  <path d="M140 24v84" stroke="#E2E2E2" stroke-width="2"/>
+  <text x="166" y="62" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+        font-size="40" font-weight="700" letter-spacing="3" fill="#26364F">江南小小探索家</text>
+  <text x="168" y="94" font-family="Helvetica Neue, Arial, sans-serif" font-size="15"
+        font-weight="600" letter-spacing="4.6" fill="#2E7D77">LITTLE EXPLORERS · JIANGNAN</text>
+</svg>

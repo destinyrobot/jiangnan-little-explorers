@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="小舟 Xiaozhou 角色正面">
+  <title>小舟 Xiaozhou — 正面站姿</title>
+  <rect width="400" height="520" fill="none"/>
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="472" rx="84" ry="13" fill="#26364F" opacity="0.10"/>
+
+  <!-- backpack (behind) -->
+  <g>
+    <rect x="130" y="236" width="140" height="108" rx="26" fill="#E9793B"/>
+    <rect x="130" y="236" width="140" height="32" rx="16" fill="#D4652B"/>
+  </g>
+
+  <!-- legs -->
+  <g fill="#F7DCC4">
+    <rect x="157" y="360" width="33" height="82" rx="16"/>
+    <rect x="210" y="360" width="33" height="82" rx="16"/>
+  </g>
+  <!-- socks + shoes -->
+  <g>
+    <rect x="160" y="416" width="28" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="212" y="416" width="28" height="20" rx="6" fill="#FFFFFF"/>
+    <rect x="150" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <rect x="202" y="436" width="48" height="26" rx="12" fill="#FFFFFF"/>
+    <path d="M150 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M202 452h48v6a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12z" fill="#2E7D77"/>
+    <path d="M170 440l10 14M186 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M222 440l10 14M238 440l-8 14" stroke="#E9793B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- shorts -->
+  <g>
+    <path d="M150 326h100l-1 50h-48l-1-26-1 26h-49z" fill="#33455E"/>
+    <rect x="150" y="322" width="100" height="12" rx="4" fill="#26364F"/>
+  </g>
+
+  <!-- arms (behind torso) -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M160 246c-11 18-18 34-19 54" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M141 300c4 12 10 22 17 30" stroke="#F7DCC4" stroke-width="22"/>
+    <path d="M240 246c11 18 18 34 19 54" stroke="#2E7D77" stroke-width="27"/>
+    <path d="M259 300c-4 12-10 22-17 30" stroke="#F7DCC4" stroke-width="22"/>
+  </g>
+  <circle cx="263" cy="342" r="13" fill="#F7DCC4"/>
+
+  <!-- torso -->
+  <path d="M148 240c0-10 18-16 38-16h28c20 0 38 6 38 16l-4 96H152z" fill="#F6F1E6"/>
+  <!-- sleeve seams -->
+  <path d="M152 236c6 10 8 22 8 34M248 236c-6 10-8 22-8 34" stroke="#E3DBC9" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- collar -->
+  <path d="M184 226q16 20 32 0" stroke="#2E7D77" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- hem -->
+  <path d="M152 336h96" stroke="#E3DBC9" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- backpack straps -->
+  <g stroke="#D4652B" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M176 228c-6 32-4 66 2 100"/>
+    <path d="M224 228c6 32 4 66-2 100"/>
+  </g>
+  <rect x="188" y="278" width="24" height="14" rx="4" fill="#26364F"/>
+
+  <g>
+    <path d="M150 296l38-11 33 11 33-11 6 56-33 11-33-11-38 11z" fill="#F8F2E6"/>
+    <path d="M188 285v68M221 296v68" stroke="#DFD5BE" stroke-width="3"/>
+    <path d="M162 322c13-9 24-4 35-11s22-4 31 2" stroke="#2E7D77" stroke-width="4"
+          fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+    <path d="M166 340q13-15 26 0" stroke="#26364F" stroke-width="4" fill="none"
+          stroke-linecap="round"/>
+    <path d="M161 346h36" stroke="#26364F" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    <circle cx="246" cy="310" r="7" fill="#E9793B"/>
+    <circle cx="246" cy="310" r="12" fill="none" stroke="#E9793B" stroke-width="3" opacity=".5"/>
+  </g>
+  <!-- neck -->
+  <rect x="186" y="198" width="28" height="36" rx="13" fill="#EFC9A9"/>
+
+  <!-- ears -->
+  <circle cx="142" cy="156" r="11" fill="#F7DCC4"/>
+  <circle cx="258" cy="156" r="11" fill="#F7DCC4"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="148" rx="60" ry="64" fill="#F7DCC4"/>
+
+  <!-- hair -->
+  <path d="M141 146c-6-50 24-78 59-78s65 28 59 78c-9-24-27-38-45-42-10 14-28 20-42 12-12 4-24 14-31 30z" fill="#26364F"/>
+  <path d="M206 72c8-14 26-16 34-8-10-2-22 0-28 10z" fill="#26364F"/>
+
+  <!-- brows -->
+  <path d="M168 136q12-9 24-3" stroke="#1B2839" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M208 133q12-6 24 3" stroke="#1B2839" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="181" cy="158" rx="8" ry="10.5" fill="#26364F"/>
+  <ellipse cx="219" cy="158" rx="8" ry="10.5" fill="#26364F"/>
+  <circle cx="178" cy="154" r="3" fill="#FFFFFF"/>
+  <circle cx="216" cy="154" r="3" fill="#FFFFFF"/>
+  <!-- nose -->
+  <path d="M197 174q7 4 1 8" stroke="#E4B99A" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- mouth -->
+  <path d="M188 190q12 12 24 0" stroke="#B0574A" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- blush -->
+  <ellipse cx="162" cy="178" rx="11" ry="6" fill="#F0A79B" opacity="0.55"/>
+  <ellipse cx="238" cy="178" rx="11" ry="6" fill="#F0A79B" opacity="0.55"/>
+  <circle cx="158" cy="330" r="13" fill="#F7DCC4"/>
+  <circle cx="242" cy="330" r="13" fill="#F7DCC4"/>
+</svg>

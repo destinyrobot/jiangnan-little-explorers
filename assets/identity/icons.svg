@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" role="img" aria-label="江南小小探索家 图标系统">
+  <title>图标系统 / Icon Set</title>
+  <rect width="960" height="400" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700"
+        letter-spacing="3.4" fill="#2E7D77">ICON SYSTEM</text>
+  <text x="30" y="80" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+        font-size="24" font-weight="700" fill="#26364F">图标系统 · 12 枚</text>
+  <text x="930" y="80" text-anchor="end" font-family="PingFang SC, Helvetica Neue, sans-serif"
+        font-size="12.5" fill="#26364F" opacity=".55">48px 网格 · 3px 描边 · 圆头端点</text>
+
+  <g fill="none" stroke="#26364F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 01 古桥 -->
+    <g transform="translate(51 110)">
+      <path d="M4 24h40"/>
+      <path d="M12 37c0-8 5-13 12-13s12 5 12 13"/>
+      <path d="M6 37h36" stroke="#2E7D77" stroke-width="2.6" opacity=".7"/>
+      <path d="M13 43h22" stroke="#2E7D77" stroke-width="2.6" opacity=".45"/>
+      <path d="M4 16v8M44 16v8"/>
+    </g>
+    <!-- 02 乌篷船 -->
+    <g transform="translate(201 110)">
+      <path d="M7 30h34l-5 9H12z"/>
+      <path d="M16 30a8 8 0 0 1 16 0"/>
+      <path d="M4 44q6-5 12 0t12 0 12 0" stroke="#2E7D77"/>
+    </g>
+    <!-- 03 荷叶 -->
+    <g transform="translate(351 110)">
+      <circle cx="24" cy="21" r="13"/>
+      <path d="M24 21l-9-6M24 21l9-6M24 21v-12M24 21l-11 6M24 21l11 6" stroke="#2E7D77" stroke-width="2.4"/>
+      <path d="M24 34v10"/>
+    </g>
+    <!-- 04 小鱼 -->
+    <g transform="translate(501 110)">
+      <path d="M18 24l-9-8v16z" fill="#26364F"/>
+      <path d="M18 24c4-8 14-9 21-3-6 8-16 9-21 3z"/>
+      <path d="M33 21v.5" stroke-width="4"/>
+      <path d="M10 40q7-5 14 0t14 0" stroke="#2E7D77" stroke-width="2.6"/>
+    </g>
+    <!-- 05 柳枝 -->
+    <g transform="translate(651 110)">
+      <path d="M12 6c8 11 15 24 18 38"/>
+      <ellipse cx="17" cy="14" rx="7" ry="3.4" transform="rotate(-38 17 14)" stroke="#2E7D77" stroke-width="2.6"/>
+      <ellipse cx="30" cy="20" rx="7" ry="3.4" transform="rotate(28 30 20)" stroke="#2E7D77" stroke-width="2.6"/>
+      <ellipse cx="21" cy="25" rx="7" ry="3.4" transform="rotate(-28 21 25)" stroke="#2E7D77" stroke-width="2.6"/>
+      <ellipse cx="34" cy="33" rx="7" ry="3.4" transform="rotate(32 34 33)" stroke="#2E7D77" stroke-width="2.6"/>
+      <ellipse cx="25" cy="38" rx="7" ry="3.4" transform="rotate(-22 25 38)" stroke="#2E7D77" stroke-width="2.6"/>
+    </g>
+    <!-- 06 放大镜 -->
+    <g transform="translate(801 110)">
+      <circle cx="21" cy="21" r="13"/>
+      <path d="M31 31l11 11" stroke-width="5"/>
+      <path d="M15 24h12" stroke="#2E7D77" stroke-width="2.6"/>
+      <path d="M17 29h8" stroke="#2E7D77" stroke-width="2.6" opacity=".6"/>
+    </g>
+
+    <!-- 07 地图 -->
+    <g transform="translate(51 240)">
+      <path d="M7 13l11-5 12 5 11-5v28l-11 5-12-5-11 5z"/>
+      <path d="M18 8v28M30 13v28"/>
+      <path d="M12 24q6 5 10 1t9 3" stroke="#2E7D77" stroke-width="2.6"/>
+    </g>
+    <!-- 08 罗盘 -->
+    <g transform="translate(201 240)">
+      <circle cx="24" cy="24" r="15"/>
+      <path d="M24 14l6 10-6 10-6-10z" fill="#E9793B" stroke="#E9793B"/>
+      <path d="M24 34V24" stroke="#26364F"/>
+    </g>
+    <!-- 09 双肩包 -->
+    <g transform="translate(351 240)">
+      <path d="M12 22a12 12 0 0 1 24 0v16a5 5 0 0 1-5 5H17a5 5 0 0 1-5-5z"/>
+      <path d="M12 28h24"/>
+      <path d="M19 34h10v9H19z" stroke="#2E7D77"/>
+      <path d="M20 14a4 4 0 0 1 8 0"/>
+    </g>
+    <!-- 10 研学手册 -->
+    <g transform="translate(501 240)">
+      <path d="M12 8h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H12z"/>
+      <path d="M18 8v32" stroke="#2E7D77"/>
+      <path d="M25 19h8M25 26h8"/>
+    </g>
+    <!-- 11 云 -->
+    <g transform="translate(651 240)">
+      <path d="M15 37a8 8 0 0 1 0-16a11 11 0 0 1 21-3a8 8 0 0 1 3 15z"/>
+      <path d="M8 44h14" stroke="#2E7D77" stroke-width="2.6" opacity=".7"/>
+    </g>
+    <!-- 12 水纹 -->
+    <g transform="translate(801 240)">
+      <path d="M6 16q7-7 14 0t14 0 8 0"/>
+      <path d="M6 27q7-7 14 0t14 0 8 0" stroke="#2E7D77"/>
+      <path d="M6 38q7-7 14 0t14 0 8 0" stroke="#2E7D77" opacity=".55"/>
+    </g>
+  </g>
+
+  <g font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif"
+     font-size="12" fill="#26364F" text-anchor="middle">
+    <g opacity=".72" font-size="10.5" letter-spacing="1.6" font-family="Helvetica Neue, Arial, sans-serif">
+      <text x="75" y="200">BRIDGE</text><text x="225" y="200">BOAT</text><text x="375" y="200">LOTUS</text>
+      <text x="525" y="200">FISH</text><text x="675" y="200">WILLOW</text><text x="825" y="200">SEARCH</text>
+      <text x="75" y="330">MAP</text><text x="225" y="330">COMPASS</text><text x="375" y="330">BACKPACK</text>
+      <text x="525" y="330">NOTES</text><text x="675" y="330">CLOUD</text><text x="825" y="330">RIPPLE</text>
+    </g>
+    <g font-size="13" font-weight="600">
+      <text x="75" y="184">古桥</text><text x="225" y="184">乌篷船</text><text x="375" y="184">荷叶</text>
+      <text x="525" y="184">小鱼</text><text x="675" y="184">柳枝</text><text x="825" y="184">放大镜</text>
+      <text x="75" y="314">地图</text><text x="225" y="314">罗盘</text><text x="375" y="314">双肩包</text>
+      <text x="525" y="314">研学手册</text><text x="675" y="314">云</text><text x="825" y="314">水纹</text>
+    </g>
+  </g>
+</svg>

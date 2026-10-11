@@ -55,10 +55,7 @@
   <circle cx="258" cy="156" r="11" fill="#F7DCC4"/>
 
   <!-- head (all hair from behind) -->
-  <ellipse cx="200" cy="150" rx="62" ry="64" fill="#26364F"/>
-  <path d="M140 158c-2 42 10 74 26 92l-16 6c-20-24-28-64-24-100z" fill="#26364F"/>
-  <path d="M260 158c2 42-10 74-26 92l16 6c20-24 28-64 24-100z" fill="#26364F"/>
-  <path d="M186 78c-16 2-26 14-24 28" stroke="#26364F" stroke-width="13" fill="none" stroke-linecap="round"/>
-  <path d="M214 76c14-8 28-2 30 10" stroke="#26364F" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M141 146c-6-50 24-78 59-78s65 28 59 78v20c0 30-26 46-59 46s-59-16-59-46z" fill="#26364F"/>
+  <path d="M194 72c-8-14-26-16-34-8 10-2 22 0 28 10z" fill="#26364F"/>
   <ellipse cx="172" cy="132" rx="17" ry="11" fill="#31455F" opacity="0.55" transform="rotate(-18 172 132)"/>
 </svg>
